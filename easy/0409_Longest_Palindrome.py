@@ -1,5 +1,5 @@
 # leetcode-0409-Longest Palindrome
-# from collection import defaultdict
+from collections import defaultdict
 class Solution(object):
     def longestPalindrome(self, s):
         """
@@ -19,4 +19,4 @@ class Solution(object):
                 result += 1 # 因此結果數值+1
                 break # 因為中央字母只需要一個，一旦找到就跳出迴圈
         
-        return results
+        return result
